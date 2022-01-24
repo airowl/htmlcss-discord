@@ -22,6 +22,12 @@ a, a:visited, a:hover{
     color: #fff;
 }
 
+h2{
+    font-size: 2.38rem;
+    line-height: 1.2;
+    margin-bottom: 1.88rem;
+}
+
 p{
     line-height: 1.5;
 }
@@ -152,7 +158,6 @@ section.hero{
 }
 
 .features__title{
-    margin-bottom: 1.88rem;
 }
 
 .features__text{
@@ -160,7 +165,5 @@ section.hero{
     line-height: auto;
 }
 
-.features__title{
-    font-size: 2.38rem;
-    line-height: 1.2;
-}
+/* SPECIAL FEATURES */
+
