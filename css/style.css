@@ -117,7 +117,6 @@ section.hero{
     background-size: cover;
     background-position: center;
     position: relative;
-    margin-bottom: 10.38rem;
 }
 
 .main_hero{
@@ -144,8 +143,16 @@ section.hero{
 
 /* FEATURES */
 
+.features{
+    padding: 8.5rem 0;
+}
+
 .features__img{
     width: 75%;
+}
+
+.features__title{
+    margin-bottom: 1.88rem;
 }
 
 .features__text{
