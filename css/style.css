@@ -29,6 +29,15 @@ a, a:visited, a:hover{
     font-size: 1.6rem;
 }
 
+h1{
+    font-size: 4.4rem;
+    color: #fff;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
 button.btn{
     padding: 1.2rem;
     border-radius: 2.5rem;
@@ -89,3 +98,16 @@ header{
 .login{
     text-align: end;
 }
+
+
+/* MAIN */
+
+/* SECTIOIN HERO */
+
+section.hero{
+    height: 54rem;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+}
+
