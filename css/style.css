@@ -29,11 +29,6 @@ a, a:visited, a:hover{
     font-size: 1.6rem;
 }
 
-.container{
-    width: 80%;
-    margin: 0 auto;
-}
-
 button.btn{
     padding: 1.2rem;
     border-radius: 2.5rem;
@@ -41,15 +36,56 @@ button.btn{
     background-color: #fff;
 }
 
+.container{
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float_left{
+    float: left;
+}
+
+.text_aling_ct{
+    text-align: center;
+}
+
 /* HEADER */
 
 header{
-    border: 1px solid red;
-    /* height: 8rem; */
+    /* border: 1px solid red; */
+    height: 8rem;
+    line-height: 8rem;
     background-color: #3161e0;
 }
 
-header .nav_bar ul li{
+.logo, .login{
+    width: 20%;
+}
+
+.logo img{
+    vertical-align: middle;
+}
+
+.nav_bar{
+    width: calc(100% - 40%);
+}
+
+.nav_bar ul li{
     display: inline;
     list-style-type: none;
+}
+
+.nav_bar ul li:not(:last-child){
+    margin-right: 4rem;
+}
+
+.login{
+    text-align: end;
 }
