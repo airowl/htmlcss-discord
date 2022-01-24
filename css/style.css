@@ -151,7 +151,7 @@ section.hero{
     margin-left: 1.56rem;
 }
 
-/* FEATURES */
+/* SECTION FEATURES */
 
 .features__img{
     width: 75%;
@@ -163,7 +163,7 @@ section.hero{
     line-height: auto;
 }
 
-/* SPECIAL FEATURES */
+/* SECTION SPECIAL FEATURES */
 
 .special_features .big-img{
     width: 100%;
