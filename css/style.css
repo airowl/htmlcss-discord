@@ -25,10 +25,32 @@ a, a:visited, a:hover{
 }
 
 button.btn{
-    padding: .75rem;
     border-radius: 1.7rem;
     border: none;
+}
+
+.btn-sm{
+    padding: .75rem;
+}
+
+.btn-lg{
+    padding: 1rem 1.75rem;
+    font-size: 1.1rem;
+}
+
+.btn-white{
     background-color: #fff;
+    color: #000;
+}
+
+.btn-black{
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-special{
+    background-color: #8ea1e1;
+    color: #fff;
 }
 
 .container{
@@ -43,11 +65,11 @@ button.btn{
     clear: both;
 }
 
-.float_left{
+.float-left{
     float: left;
 }
 
-.text_aling_ct{
+.text-aling-ct{
     text-align: center;
 }
 
@@ -116,6 +138,6 @@ section.hero{
     margin-bottom: 1.5rem;
 }
 
-.btn_white{
-    
+.main_hero button:last-of-type{
+    margin-left: 1.56rem;
 }
