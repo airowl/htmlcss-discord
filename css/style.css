@@ -67,6 +67,10 @@ button.btn{
     max-width: 1110px;
 }
 
+.container-padd{
+    padding: 8.5rem 0;
+}
+
 .clearfix::after{
     content: "";
     display: table;
@@ -149,16 +153,10 @@ section.hero{
 
 /* FEATURES */
 
-.features{
-    padding: 8.5rem 0;
-}
-
 .features__img{
     width: 75%;
 }
 
-.features__title{
-}
 
 .features__text{
     width: 25%;
@@ -167,3 +165,11 @@ section.hero{
 
 /* SPECIAL FEATURES */
 
+.special_features .big-img{
+    width: 100%;
+}
+
+.special_features h3{
+    font-size: 1.63rem;
+    margin-bottom: 2.5rem;
+}
