@@ -1,8 +1,4 @@
 /* RESET */
-html{
-    font-size: 62.5%;
-}
-
 *,
 *::after,
 *::before{
@@ -26,21 +22,11 @@ body{
 a, a:visited, a:hover{
     text-decoration: none;
     color: #fff;
-    font-size: 1.6rem;
-}
-
-h1{
-    font-size: 4.4rem;
-    color: #fff;
-}
-
-p{
-    font-size: 1.6rem;
 }
 
 button.btn{
-    padding: 1.2rem;
-    border-radius: 2.5rem;
+    padding: .75rem;
+    border-radius: 1.7rem;
     border: none;
     background-color: #fff;
 }
@@ -69,8 +55,8 @@ button.btn{
 
 header{
     /* border: 1px solid red; */
-    height: 8rem;
-    line-height: 8rem;
+    height: 5rem;
+    line-height: 5rem;
     background-color: #3161e0;
 }
 
@@ -92,22 +78,44 @@ header{
 }
 
 .nav_bar ul li:not(:last-child){
-    margin-right: 4rem;
+    margin-right: 2.5rem;
 }
 
 .login{
     text-align: end;
 }
 
-
 /* MAIN */
 
 /* SECTIOIN HERO */
 
 section.hero{
-    height: 54rem;
+    height: 33.75rem;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
+.main_hero{
+    width: 40.44rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.hero__title{
+    font-size: 2.75rem;
+    margin-bottom: 2.63rem;
+}
+
+.hero__text{
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.btn_white{
+    
+}
