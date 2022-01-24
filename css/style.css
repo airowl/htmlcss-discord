@@ -24,6 +24,10 @@ a, a:visited, a:hover{
     color: #fff;
 }
 
+p{
+    line-height: 1.5;
+}
+
 button.btn{
     border-radius: 1.7rem;
     border: none;
@@ -56,7 +60,7 @@ button.btn{
 .container{
     width: 70%;
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 1110px;
 }
 
 .clearfix::after{
@@ -71,6 +75,10 @@ button.btn{
 
 .text-aling-ct{
     text-align: center;
+}
+
+.text-align-end{
+    text-align: end;
 }
 
 /* HEADER */
@@ -103,10 +111,6 @@ header{
     margin-right: 2.5rem;
 }
 
-.login{
-    text-align: end;
-}
-
 /* MAIN */
 
 /* SECTIOIN HERO */
@@ -121,7 +125,7 @@ section.hero{
 }
 
 .main_hero{
-    width: 40.44rem;
+    /* width: 40.44rem; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -130,12 +134,11 @@ section.hero{
 }
 
 .hero__title{
-    font-size: 2.75rem;
+    font-size: 4rem;
     margin-bottom: 2.63rem;
 }
 
 .hero__text{
-    line-height: 1.5;
     margin-bottom: 1.5rem;
 }
 
@@ -145,19 +148,16 @@ section.hero{
 
 /* FEATURES */
 
-.features, .features__img, .features__text{
-    border: 1px solid red;
-}
-
 .features__img{
-    width: 65%;
+    width: 75%;
 }
 
 .features__text{
-    width: 35%;
-
+    width: 25%;
+    line-height: auto;
 }
 
 .features__title{
     font-size: 2.38rem;
+    line-height: 1.2;
 }
