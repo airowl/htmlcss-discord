@@ -11,6 +11,27 @@ html{
     box-sizing: border-box;
 }
 
+/* COLORS
+    #3161e0
+*/
+
+
+
+/* GLOBALS */
+
 body{
     font-family: 'Whitney', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header{
+    border: 1px solid red;
+    height: 8rem;
+    background-color: #3161e0;
 }
