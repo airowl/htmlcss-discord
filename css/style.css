@@ -23,6 +23,12 @@ body{
     font-family: 'Whitney', sans-serif;
 }
 
+a, a:visited, a:hover{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
 .container{
     width: 80%;
     margin: 0 auto;
@@ -34,4 +40,9 @@ header{
     border: 1px solid red;
     height: 8rem;
     background-color: #3161e0;
+}
+
+header .nav_bar ul li{
+    display: inline;
+    list-style-type: none;
 }
